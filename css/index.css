@@ -81,12 +81,19 @@ input{
 
 }
 #top_main{
+
 	margin-bottom:10px;
 	width:1400px;
 	height:900px;
 	margin:0 auto;
 	background:#f2f1f6;
 	position: relative;
+}
+#top_main .set{
+	z-index: 99;
+	position: fixed;
+	left: 0;
+	top: 95px;
 }
 /*****************轮播图内容********************/
 /***按钮*****/
@@ -604,11 +611,10 @@ display:inline-block;
 #foot_t>ul>li>b{
 	float:left;
 	display:inline-block;
-	width:50px;
+	width:54px;
 	height:50px;
 	background:url(../Images/only_90.png) no-repeat;
 	margin:5px 10px;
-	margin-left:10px;
 }
 #foot_t>ul:nth-child(2) b{
 	background:url(../Images/only_93.png) no-repeat;
